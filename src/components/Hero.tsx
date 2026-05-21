@@ -19,18 +19,19 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/363c6768-c25d-4891-94a3-e05732f7b3b9/files/8a9f0859-4258-4bef-9326-24687b9f85d2.jpg"
+          alt="Мастерская деревянных изделий"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ДРЕВО
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Изделия из дерева ручной работы. Каждый предмет — живой, тёплый, неповторимый.
         </p>
       </div>
     </div>
